@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    background-position: cover;
+    background-image: url('img/bk1.jpg');
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
+    background-size: 100%;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+header ul li {
+    display: inline;
+    padding: 0 20px;
+}
+header ul li a:hover {
+    color: #0779e4;
+}
+#showcase {
+    min-height: 400px;
+    background: url('https://source.unsplash.com/random/1600x900?tech') no-center center/cover;
+    text-align: center;
+    color: #fff;
+}
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p {
+    font-size: 20px;
+}
+#sobre {
+    margin-bottom: 1.5rem;
+    padding: 50px 20px;
+    background: #fff;
+    border-radius: 0.5rem;
+}
+#projetos {
+    background: #f4f4f4;
+    padding: 2.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.4rem;
+    
+}
+.projeto {
+    background: #fff;
+    margin-bottom: 1.5rem;
+    padding: 20px;
+    border-radius: 5px;
+}
+.projeto h3 {
+    color: #0779e4;
+}
+#contato {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 30px;
+}
+@media(max-width: 768px) {
+    header ul li {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+    #showcase h1 {
+        font-size: 40px;
+    }
+}
+
+div#banner{
+    
+}
