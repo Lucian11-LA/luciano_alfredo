@@ -14,6 +14,22 @@ body {
     background-repeat:no-repeat ;
     background-size: 100%;
 }
+img#profile{
+    width: 50%;
+    height: 50%;
+    border-radius: 100px;
+
+}
+.screen{
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.screen img{
+    width: 50%;
+    height: 50%;
+    border-radius: 4px;
+}
 .container {
     width: 80%;
     margin: auto;
